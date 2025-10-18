@@ -2,6 +2,7 @@ import React from 'react';
 import { Download, ChevronDown } from 'lucide-react';
 import { motion } from 'framer-motion';
 import picture from "../../src/assets/profile-pic.png";
+import cv from "../../src/assets/MD Rezwan Ahmmed Siam_CV_Ostad_CV_Builder_2025-10-15.pdf"
 
 const Header = () => {
     // Animation variants
@@ -133,14 +134,18 @@ const Header = () => {
                         className="flex flex-wrap items-center gap-4 pt-2"
                         variants={itemVariants}
                     >
-                        <motion.button
+                        <motion.a
+                            href={cv}
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-full text-sm font-medium transition"
                             variants={buttonVariants}
                             whileHover="hover"
                             whileTap="tap"
                         >
-                            <Download size={16} /> Download CV
-                        </motion.button>
+                            <Download size={16}/>
+                            View CV
+                        </motion.a>
                         <motion.button
                             className="flex items-center gap-2 bg-gray-800 hover:bg-gray-700 text-white px-5 py-2 rounded-full text-sm font-medium transition"
                             variants={buttonVariants}
@@ -155,7 +160,7 @@ const Header = () => {
                                 ease: "easeInOut"
                             }}
                         >
-                            Scroll down <ChevronDown size={16} />
+                            Scroll down <ChevronDown size={16}/>
                         </motion.button>
                     </motion.div>
                 </div>
