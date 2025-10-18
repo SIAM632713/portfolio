@@ -7,6 +7,7 @@ import Work from "./component/work.jsx";
 import Review from "./component/review.jsx";
 import Contact from "./component/contact.jsx";
 import Footer from "./component/footer.jsx";
+import BackendExpertise from "./component/BackendExpertise.jsx";
 
 const App = () => {
     return (
@@ -21,7 +22,9 @@ const App = () => {
                     <Banner />
                     <Tools />
                 </section>
-
+                <section>
+                    <BackendExpertise/>
+                </section>
                 <section id="Work">
                     <Work />
                 </section>

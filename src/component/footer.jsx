@@ -135,7 +135,7 @@ const Footer = () => {
                     <ul className="space-y-3">
                         {[
                             { name: "GitHub", icon: <Github size={18} />, url: "https://github.com/SIAM632713" },
-                            { name: "LinkedIn", icon: <Linkedin size={18} />, url: "https://linkedin.com/" },
+                            { name: "LinkedIn", icon: <Linkedin size={18} />, url: "https://www.linkedin.com/in/siam707" },
                             { name: "Twitter X", icon: <Twitter size={18} />, url: "#" },
                             { name: "Instagram", icon: <Instagram size={18} />, url: "#" },
                             { name: "CodePen", icon: <Codepen size={18} />, url: "https://codepen.io/" }

@@ -58,8 +58,12 @@ const Banner = () => {
                 className="text-lg md:text-xl leading-relaxed italic"
                 variants={itemVariants}
             >
-                I'm Siam, a dedicated Full-Stack MERN Developer with hands-on expertise in React.js, Node.js, Express.js, and MongoDB. I specialize in crafting responsive, high-performance web applications using modern technologies like Tailwind CSS, Shadcn UI, Redux Toolkit, and Zustand.
-                From building sleek, scalable frontends to developing secure, efficient backend APIs, I deliver clean, maintainable code tailored to your business needs. Whether you're looking for a dynamic landing page, a modern business website, or a full-stack web application with seamless API integration — I'm here to turn your vision into reality with mobile-first design and production-ready solutions.
+                I'm Siam, a dedicated <span className="text-blue-400 font-medium">Full-Stack MERN Developer</span> with a strong focus on
+                building scalable, secure, and efficient backend systems. My expertise includes <span className="text-blue-400 font-medium">Node.js</span>,
+                <span className="text-blue-400 font-medium"> Express.js</span>, <span className="text-blue-400 font-medium">MongoDB</span>, and <span className="text-blue-400 font-medium">Mongoose</span> — combined with modern frontend tools like React, Tailwind CSS,
+                and Zustand. I specialize in crafting RESTful APIs, authentication systems, and optimized database structures.
+                Whether you're looking for a complete full-stack web solution or just solid backend logic for your project,
+                I deliver maintainable, production-ready code built for performance and scalability.
             </motion.p>
 
             <motion.div

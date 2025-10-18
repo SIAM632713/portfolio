@@ -104,21 +104,21 @@ const Contact = () => {
                             whileHover="hover"
                             whileTap="tap"
                         >
-                            <button className="p-3 bg-[#27272a] rounded-md flex items-center gap-2">
+                            <button className="p-3 bg-[#27272a] rounded-md flex items-center gap-2 cursor-pointer">
                                 <Github size={20}/>
                                 <span className="text-sm">GitHub</span>
                             </button>
                         </motion.a>
 
                         <motion.a
-                            href="https://linkedin.com"
+                            href="https://www.linkedin.com/in/siam707"
                             target="_blank"
                             rel="noopener noreferrer"
                             variants={socialButtonVariants}
                             whileHover="hover"
                             whileTap="tap"
                         >
-                            <button className="p-3 bg-[#27272a] rounded-md flex items-center gap-2">
+                            <button className="p-3 bg-[#27272a] rounded-md flex items-center gap-2 cursor-pointer">
                                 <Linkedin size={20}/>
                                 <span className="text-sm">LinkedIn</span>
                             </button>
